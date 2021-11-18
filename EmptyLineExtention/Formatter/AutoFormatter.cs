@@ -69,7 +69,7 @@ namespace EmptyLineExtention.Formatter
                 int? allowedLines = GetAllowedLinesValue(document);
                 if (allowedLines.HasValue)
                 {
-                    EmptyLineService.FormatDocument(document, false, allowedLines.Value, dte, GetIgnoreStartLinesSetting());
+                    EmptyLineService.FormatDocument(document, false, allowedLines.Value, GetIgnoreStartLinesSetting());
                 }
             }
 

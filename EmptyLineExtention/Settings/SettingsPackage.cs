@@ -26,13 +26,13 @@ namespace EmptyLineExtention.Settings
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#1110", "#1112", "1.0", IconResourceID = 1400)] // Info on this package for Help/About
     [ProvideOptionPage(typeof(OptionPage), Core.Constants.AppName, Core.Constants.SettingsPageName, 0, 0, true)]
-    [Guid(SettingsPackage.PackageGuidString)]
+    [Guid(PackageGuidString)]
     public sealed class SettingsPackage : AsyncPackage
     {
         /// <summary>
         /// SettingsPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "4c669564-48ec-4813-9df6-609b4b286ace";
+        public const string PackageGuidString = "8b474767-2d79-4d6a-820d-32fa312d7248";
 
         /// <summary>
         /// Initializes a new instance of the <see cref="SettingsPackage"/> class.

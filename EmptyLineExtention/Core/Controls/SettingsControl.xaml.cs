@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using EmptyLineExtention.Core.Localization;
+using EmptyLineExtension.Core.Localization;
 using EmptyLineExtention.Core.Settings;
 
 namespace EmptyLineExtention.Core.Controls

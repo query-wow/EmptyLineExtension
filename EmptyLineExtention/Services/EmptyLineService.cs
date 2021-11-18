@@ -16,7 +16,7 @@ namespace EmptyLineExtention.Services
         /// <param name="document"></param>
         /// <param name="canUseSelection"></param>
         /// <param name="allowedLines"></param>
-        public static void FormatDocument(Document document, bool canUseSelection, int allowedLines, _DTE dte, bool deleteAllEmptyStartLines)
+        public static void FormatDocument(Document document, bool canUseSelection, int allowedLines, bool deleteAllEmptyStartLines)
         {
             Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
 

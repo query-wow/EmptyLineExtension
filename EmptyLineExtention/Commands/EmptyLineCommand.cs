@@ -101,7 +101,7 @@ namespace EmptyLineExtention.Commands
             int? allowedLines = GetAllowedLinesValue(applicationObject.ActiveDocument);
             if (allowedLines.HasValue)
             {
-                EmptyLineService.FormatDocument(applicationObject.ActiveDocument, true, allowedLines.Value, applicationObject, GetIgnoreStartingLines());
+                EmptyLineService.FormatDocument(applicationObject.ActiveDocument, true, allowedLines.Value, GetIgnoreStartingLines());
             }
         }
 
