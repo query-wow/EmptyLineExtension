@@ -146,7 +146,7 @@ namespace EmptyLineExtention.Formatter
         /// <returns></returns>
         private bool GetAutoSavePropertyValue()
         {
-            OptionPage optionProperties = null;
+            OptionPage optionProperties;
             try
             {
                 optionProperties = (OptionPage)package.GetDialogPage(typeof(OptionPage));
